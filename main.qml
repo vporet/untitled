@@ -6,12 +6,12 @@ Window {
     width: 640
     height: 480
     title: qsTr("Hello World")
-    MainForm{
+  /*  MainForm{
         anchors.fill:parent
         mouseArea.onClicked: {
             console.log(qsTr("click"))
         }
-    }
+    }*/
 
     Item{
         Rectangle{
@@ -41,7 +41,7 @@ Window {
 
     }
 
- /*   MouseArea{
+   MouseArea{
         anchors.fill: parent
         acceptedButtons: Qt.LeftButton | Qt.RightButton
         onClicked: {
@@ -55,7 +55,7 @@ Window {
                 console.log(chaine_test.taille)
             }
         }
-    }*/
+    }
 
 
 }
